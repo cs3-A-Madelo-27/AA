@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweetside</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
+            background-image: url('strawberry.jpeg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-color: rgba(255, 221, 245, 0.7);
+        }
+
+        header {
+            background-color: rgba(255, 221, 245, 0.8);
+            color: #C91596;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navButton {
+            text-decoration: none;
+            color: #68004B;
+            padding: 12px 24px;
+            border-radius: 5px;
+            margin-right: 20px;
+            border: 1px solid #68004B;
+        }
+
+        .logo {
+            text-decoration: none;
+            color: #68004B;
+            padding: 12px 0;
+            margin-left: 310px;
+            margin-right: 310px;
+            font-size: 24px;
+            letter-spacing: 3px;
+        }
+
+        .navButton:hover {
+            background-color: #FF8EDF;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .container {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+
+        .product {
+            border: 1px solid #68004B;
+            border-radius: 10px;
+            padding: 10px;
+			background-color: rgba(255, 221, 245, 0.8);
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .product p {
+            color: #C91596;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .contact {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .contact p {
+            background-color: rgba(255, 221, 245, 0.9);
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+			border: 1px solid #68004B;
+			font-size: 20px;
+            width: 400px;
+            height: 35px;
+            margin-top: 20px;
+            display: block;
+            margin: 0 auto;
+			margin-bottom: 20px;
+			color: #68004B;
+        }
+
+        .contact a {
+            font-size: 20px;
+            width: 120px;
+            height: 35px;
+            border-radius: 10px;
+            background-color: rgba(255, 221, 245, 0.8);
+            border: none;
+            color: #68004B; 
+            margin-top: 20px;
+            display: block;
+            margin: 0 auto;
+			margin-bottom: 50px;
+            text-decoration: none;
+			letter-spacing: 0px;
+			border: 1px solid #68004B;
+        }
+		.contact a:hover {
+            background-color: #FF8EDF;
+        }
+		.best-sellers h2 {
+			background-color: rgba(255, 221, 245, 0.9);
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+			border: 1px solid #68004B;
+			font-size: 20px;
+            width: 400px;
+            height: 35px;
+            margin-top: 20px;
+            display: block;
+            margin: 0 auto;
+			margin-bottom: 20px;
+			color: #68004B;
+        }
+		
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="navButton" href="cafe.html">Cafe</a></li>
+                <li><a class="navButton" href="gallery.html">Gallery</a></li>
+                <li><a class="logo" href="index.html">SWEETSIDE</a></li>
+                <li><a class="navButton" href="products.html">Products</a></li>
+                <li><a class="navButton" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+		<div class="transparent-box best-sellers">
+            <h2>Check out our Best Sellers!</h2>
+        </div>
+        <div class="products">
+            <div class="product">
+                <img src="cakepops.jpeg" alt="Cake Pops">
+                <p>Cake Pops - 200 pesos per 12 pieces</p>
+            </div>
+            <div class="product">
+                <img src="cake.jpeg" alt="Cake">
+                <p>Cake - 49 pesos minimum per slice depending on the flavor</p>
+            </div>
+            <div class="product">
+                <img src="cookies.jpeg" alt="Cookies">
+                <p>Cookies - 10 pesos minimum depending on the flavor</p>
+            </div>
+        </div>
+        <div class="contact">
+            <p>For custom orders, reach out at:</p>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+</body>
+</html>
+
